@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('2KztcqQEUl1eLvMMh');
+    })();
+</script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+          <a href="#home" class="active">Home</a>  
+        <a href="#about">About</a>
+
+<a href="#portfolio">Portfolio</a>
+<a href="#contact ">Contact</a>
+             
+        </nav>
+     
+            <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Swapnil Singh</h1>
+            <p>I am a web developer, competitive programemer and mathemetics enthusiast. I enjoy developing websites, solving maths and dsa problems. I also have a great interest in arts and craft and spend my spare time in making crafts and paintings.</p>
+            <div class="social-media">
+                <a href="https://m.facebook.com/profile.php?id=100012114167208"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/swapsingh0502?t=n05jvGq6rNZjxsElqhAZRA&s=09"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/_swapnil_.05/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/swapnil-singh-26b679204"><i class='bx bxl-linkedin'></i></a> 
+                <a href="https://github.com/Swapnil0502"><i class='bx bxl-github'></i></a> 
+            </div>
+            <a href="MyResume.pdf" class="btn" target="_blank">Download CV</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                
+                <div class="profession" style="--i:0">
+                    <i class='bx bx-laptop'></i>
+                    <h3>Competitive Programmer</h3>
+                </div>
+                <div class="profession" style="--i:1" >
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web  Developer</h3>
+                </div>
+                <div class="profession" style="--i :2">
+                <i class='bx bxs-calculator'></i>
+                <h3>Mathematics Enthusiast</h3>
+            </div>
+                <div class="profession" style="--i :3">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web  Designer</h3>
+                </div>
+                
+                <div class="circle"></div>
+            </div>
+                <div class="overlay"></div>
+                </div>
+                <div class="home-img">
+                <img src="image/home.png" alt="developer">
+            </div>
+        
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image/about.png" alt="me">
+        </div>
+<div class="about-content">
+    <h2 class="heading">About<span>Me</span></h2>
+    <h3>Hi, I'm here to help your next project</h3>
+    <p>My main objective is to utilize my skills in creating and implementing innovative as well as progressive ideas.Willing to work as a key member in challenging environments.<span id="dot">...</span><span id="more"> I am currently pursuing B.tech in Computer Science and Engineering from Kamla Nehru Institute of Technology. I have done my Intemediate and High School in 2019 and 2017 respectively from Kendriya Vidyalaya BHU School, Varanasi.I was born and brought up in Varanasi,Uttar Pradesh.  
+    </span></p>
+    <button onclick="myFunction()" class="btn" id="mybtn">Read More</button>
+</div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+            <img src="image/portfolio1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Donate to poor</h4>
+                <p>This is a website that is built using HTML, CSS, Javascript. The contact form designed to sends the data to the Google Excel Sheet.
+                    This is made to collect things from the people and donate it to poors.
+                </p>
+                <a href="https://github.com/Swapnil0502/Donate-to-poors"><i class='bx bx-link-external'></i></a>
+            </div>
+        
+    </div>
+            <div class="portfolio-box">
+            <img src="image/portfolio2.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Night Adventures Game</h4>
+                <p>This game is build by me using HTML, CSS and Javascript. In this game there is an Obstacle that comes in the path and we have to dotch it. The game starts with a Start Game page and Ends with the Gameover page. This game also includes music that plays during the game and when the gameovers</p>
+                <a href="https://github.com/Swapnil0502/Night-Adventures-Game"><i class='bx bx-link-external'></i></a>
+            </div>
+    
+    </div>
+            <div class="portfolio-box">
+            <img src="image/portfolio3.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Food Counter</h4>
+                <p>This website is designed using HTML, CSS, Javascript and EmailJs API.It is used to deliver the food to the customers according to the menu.Emailjs API is used to send the data of the Contact form to my mail.</p>
+                <a href="https://github.com/Swapnil0502/Food-Counter"><i class='bx bx-link-external'></i></a>
+            </div>
+        
+    </div>
+            <div class="portfolio-box">
+            <img src="image/portfolio4.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Tourism Management</h4>
+                <p>This Web App is developed using ReactJs. It icludes videos to show the places of the world where you want to spend your vacations. The home page and contact page contains videos as the background. The project uses Emailjs API to submit the form data.</p>
+                <a href="https://github.com/Swapnil0502/Tourism-Management"><i class='bx bx-link-external'></i></a>
+            </div>
+        
+    </div>
+            <div class="portfolio-box">
+            <img src="image/portfolio5.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Foodie's Bakery</h4>
+                <p>This website is used to deliver the cakes to the customers and uses the ReactJs for the development and EmailJs to send the form data.It has a menu page that contains wide variety of cakes of different flavours</p>
+                <a href="https://github.com/Swapnil0502/Foodies-Bakery"><i class='bx bx-link-external'></i></a>
+            </div>
+        
+    </div>
+            <div class="portfolio-box">
+            <img src="image/portfolio6.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Your's Bank</h4>
+                <p>This project is a basic Bank system that uses HTML, CSS, Javascript in the frontend and NodeJs in the backend as well as MongoDB to store the data of the customers. It has the facility to transfer the money from your account to others account that is updated in the database.Its Member page shows the data of each customer. Member and money to the account can also be added. </p>
+                <a href="https://github.com/Swapnil0502/Yours-Bank"><i class='bx bx-link-external'></i></a>
+            </div>
+        
+    </div>
+           
+    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="name" required>
+                <input type="email" placeholder="Email Address" id="email"required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" id="phone number" required>
+                <input type="text" placeholder="Address" id="adress" required>
+            </div>
+        
+            <textarea name="" id="area" cols="30" rows="10" placeholder="Yor Message" required></textarea>
+            <button onclick="SendEmail(),reset()" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Swapnil | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <Link to="#home"><i class='bx bx-up-arrow-alt'></i></Link>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"> </script>
+        <script src="index.js"></script>
+</body>
+</html>  
